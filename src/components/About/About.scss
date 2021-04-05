@@ -1,0 +1,24 @@
+.About {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  padding: 100px 60px;
+
+  h1 {
+    @media screen and (max-width: 425px) {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 100px 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    @media screen and (max-width: 425px) {
+      font-size: 1rem;
+    }
+  }
+}

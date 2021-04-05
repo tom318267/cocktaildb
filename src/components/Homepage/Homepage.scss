@@ -1,0 +1,36 @@
+.Homepage {
+  background-color: #ace69d;
+
+  .home-div {
+    text-align: center;
+
+    .home-title {
+      font-family: "Yellowtail", cursive;
+      font-size: 5rem;
+      position: relative;
+      z-index: 1;
+
+      span {
+        #lottie {
+          width: 200px !important;
+          position: relative;
+          right: 180px;
+          top: 80px;
+
+          @media screen and (max-width: 425px) {
+            width: 150px !important;
+            right: 152px;
+          }
+        }
+      }
+    }
+
+    .subheader {
+      font-family: "Comfortaa", cursive;
+
+      @media screen and (max-width: 425px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

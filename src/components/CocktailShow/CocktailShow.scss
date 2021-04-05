@@ -1,0 +1,64 @@
+.CocktailShow {
+  background: #ace69d;
+  font-family: "Comfortaa", cursive;
+  height: auto;
+
+  h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+  }
+
+  .btn-primary {
+    color: black;
+    font-weight: 700;
+    background-color: #d79de6;
+    border-color: #d79de6;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
+    &:active {
+      background-color: #d79de6 !important;
+      border-color: #d79de6 !important;
+      color: black !important;
+    }
+
+    &:focus {
+      box-shadow: none !important;
+    }
+
+    &:hover {
+      background-color: #d679ef;
+    }
+  }
+
+  .drink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    img {
+      width: 400px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.13) 0px 3px 6px;
+
+      @media screen and (max-width: 425px) {
+        width: 250px;
+      }
+    }
+  }
+
+  .drink-info {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 40px;
+    padding-bottom: 50px;
+
+    .drink-data {
+      font-weight: 700;
+    }
+  }
+}
