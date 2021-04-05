@@ -10,6 +10,10 @@
       position: relative;
       z-index: 1;
 
+      @media screen and (max-width) {
+        left: 20px;
+      }
+
       span {
         #lottie {
           width: 200px !important;
