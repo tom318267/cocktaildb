@@ -1,3 +1,15 @@
+.no-cocktail {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 100px;
+
+  @media screen and (max-width: 425px) {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+}
+
 .CocktailList {
   font-family: "Comfortaa", cursive;
   margin-top: 100px;
